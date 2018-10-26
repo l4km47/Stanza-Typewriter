@@ -5,7 +5,7 @@ Imports System.IO
 Public Class Form1
 
 
-    Public SavePath As String = "C:\Stanza Typewriter\Saves\"
+    Public SavePath As String = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Stanza Typewriter")
 
     Dim panelBounds As Rectangle
     Public isExplorer = True
@@ -15,6 +15,15 @@ Public Class Form1
     Private ListViewButtonList As List(Of Button) = New List(Of Button)()
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        If Not (System.IO.Directory.Exists(SavePath)) Then
+            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Stanza Typewriter"))
+            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(SavePath, "Saves"))
+            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(SavePath, "Saves\\Trash"))
+            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(SavePath, "Saves\\Untagged"))
+            System.IO.Directory.CreateDirectory(System.IO.Path.Combine(SavePath, "Saves\\Others"))
+
+        End If
         Panel1.Top = Me.Size.Height - 200
         Dim AppName As String = My.Application.Info.AssemblyName
         Dim Root As String = "HKEY_CURRENT_USER\"
@@ -323,9 +332,9 @@ Public Class Form1
 
                 Dim fileExists As Boolean = File.Exists(strxFile)
                 Using sw As New StreamWriter(File.Open(strxFile, FileMode.OpenOrCreate))
-                    sw.WriteLine( _
-                        IIf(fileExists, _
-                            "Error Message in  Occured at-- " & DateTime.Now, _
+                    sw.WriteLine(
+                        IIf(fileExists,
+                            "Error Message in  Occured at-- " & DateTime.Now,
                             "Start Error Log for today"))
                 End Using
 
