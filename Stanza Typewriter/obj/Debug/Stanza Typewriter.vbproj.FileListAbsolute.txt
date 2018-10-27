@@ -16,13 +16,3 @@ C:\Users\RshnX5\Documents\Visual Studio 2012\Projects\Stanza Typewriter\Stanza T
 C:\Users\RshnX5\Documents\Visual Studio 2012\Projects\Stanza Typewriter\Stanza Typewriter\obj\Debug\Stanza_Typewriter.Form1.resources
 C:\Users\RshnX5\Documents\Visual Studio 2012\Projects\Stanza Typewriter\Stanza Typewriter\obj\Debug\Stanza_Typewriter.Resources.resources
 C:\Users\RshnX5\Documents\Visual Studio 2012\Projects\Stanza Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.vbproj.GenerateResource.Cache
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.exe
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.xml
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.pdb
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\bin\Debug\Stanza Typewriter.exe
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\bin\Debug\Stanza Typewriter.pdb
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\bin\Debug\Stanza Typewriter.xml
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.vbprojResolveAssemblyReference.cache
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza_Typewriter.Form1.resources
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza_Typewriter.Resources.resources
-C:\Users\user\Source\Repos\l4km47\Stanza-Typewriter\Stanza Typewriter\obj\Debug\Stanza Typewriter.vbproj.GenerateResource.Cache
